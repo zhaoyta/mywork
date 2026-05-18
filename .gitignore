@@ -12,5 +12,4 @@ data/pdfs/
 *.log
 .DS_Store
 tests/results/eval_report.json
-openspec
 spec.md
