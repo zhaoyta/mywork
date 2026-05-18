@@ -1,0 +1,16 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+data/chroma_db/
+data/ocr_cache/
+data/pdfs/
+*.log
+.DS_Store
+tests/results/eval_report.json
+openspec
+spec.md

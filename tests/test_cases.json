@@ -1,0 +1,68 @@
+[
+  {
+    "id": "F01",
+    "category": "factual",
+    "question": "GB/T 1568-2008 标准规定键的材料应符合哪些要求？",
+    "expected_keywords": ["材料", "45", "钢"]
+  },
+  {
+    "id": "F02",
+    "category": "factual",
+    "question": "标准中对键的表面粗糙度有什么规定？",
+    "expected_keywords": ["粗糙度", "Ra"]
+  },
+  {
+    "id": "F03",
+    "category": "factual",
+    "question": "键的硬度要求是什么？",
+    "expected_keywords": ["硬度", "HRC", "HB"]
+  },
+  {
+    "id": "T01",
+    "category": "table",
+    "question": "键宽为 10mm 时，键的高度和长度范围是多少？",
+    "expected_keywords": ["8", "10", "长度"]
+  },
+  {
+    "id": "T02",
+    "category": "table",
+    "question": "标准中规定的键的尺寸公差等级有哪些？",
+    "expected_keywords": ["公差", "h", "js"]
+  },
+  {
+    "id": "N01",
+    "category": "no_answer",
+    "question": "该标准适用于航空发动机的键连接吗？",
+    "expect_reject": true
+  },
+  {
+    "id": "N02",
+    "category": "no_answer",
+    "question": "GB/T 1568-2008 与 ISO 9999 的区别是什么？",
+    "expect_reject": true
+  },
+  {
+    "id": "A01",
+    "category": "ambiguous",
+    "question": "键怎么用？",
+    "expected_keywords": ["键槽", "连接", "配合"]
+  },
+  {
+    "id": "A02",
+    "category": "ambiguous",
+    "question": "标准有什么技术要求？",
+    "expected_keywords": ["技术", "要求"]
+  },
+  {
+    "id": "O01",
+    "category": "ocr_error",
+    "question": "键的材料硬庋要求是什么？",
+    "expected_keywords": ["硬度", "HRC", "HB"]
+  },
+  {
+    "id": "O02",
+    "category": "ocr_error",
+    "question": "鍵宽为 l0mm 时的规格是多少？",
+    "expected_keywords": ["10", "键宽"]
+  }
+]

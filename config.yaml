@@ -1,0 +1,23 @@
+pdf:
+  scanned_text_threshold: 50   # avg chars/page below this → treat as scanned
+
+chunking:
+  chunk_size: 500
+  chunk_overlap: 100
+
+retrieval:
+  top_k: 5
+  score_threshold: 0.0          # minimum similarity score (0 = no filter)
+
+self_check:
+  timeout: 10                   # seconds before fallback to "uncertain"
+  enabled: true
+
+paths:
+  chroma_db: data/chroma_db
+  pdf_dir: data/pdfs
+  ocr_cache: data/ocr_cache     # raw OCR output cached here for inspection
+
+logging:
+  level: INFO
+  file: data/app.log
